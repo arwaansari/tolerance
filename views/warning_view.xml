@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="warning_wizard" model="ir.ui.view">
+        <field name="name">Warning</field>
+        <field name="model">warning.wizard</field>
+        <field name="arch" type="xml">
+            <form>
+                <div>
+                   <h5>Done quantity is out of range of tolerance.Do you want to accept ?</h5>
+                </div>
+                <footer>
+                    <button name="action_accept" string="Accept" type="object" class="oe_highlight"/>
+                    <button name="action_dont_accept" string="Dont Accept" type="object" class="oe_highlight"/>
+                </footer>
+            </form>
+            </field>
+        </record>
+</odoo>
